@@ -18,6 +18,7 @@
 
 - Лекари
 - Заведения
+- Кино
 
 ## Игри
 
@@ -71,6 +72,15 @@
 - Следене на обяви/цени/акции
 - Cheap flights telegram bot
 
+### Music & video players
+
+- Music player
+- Spotify
+
+### Spellchecker
+
+### Web messenger
+
 ## Библиотеки
 
 - Работа с графи
@@ -87,55 +97,5 @@
 - Невронен преводач EN-BG
 - GMail spam detection
 - Stock price predictor
-
-Spellchecker
-Управление на баскетболни мачове
-Маршрут за стари коли в София
-Приложение за четене на комикси
-
-Dots and Boxes
-
-F1 stats
-
-Google Translate + Wordle
-Flashcard Master
-Paint Chase
-Wave Function Collapse
-Оптимизатор на език
-
-Spotify
-
-MenuCraft
-Reddit stories to TikTok
-Music player
-
-Система за събития
-Предвиждане на цена за кола
-Fuel Report API
-
-Управление на пътувания
-Търсене на работа
-
-Приложение за видео запис
-
-Система за спортно програмиране
-Typing test
-
-Занимателна математика
-
-Проверка за плагиаство
-Web messenger
-Генериране на въпроси
-Cinema Booking System
-
-Сваляне на видеа от Youtube
-
-Визуализация на алгоритми
-
-Honeypot server
-
-Визуализатор на родословни дървета
-
-NFT zoo battle royal
-
-Учене на думи
+- F1 stats
+- Предвиждане на цена за кола
