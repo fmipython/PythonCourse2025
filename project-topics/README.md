@@ -2,89 +2,51 @@
 
 ## Уеб приложения
 
-- 01 - Goodreads за X
+- 01 - Goodreads за X (4 варианта)
+- 02 - Онлайн магазини
+- 03 - Social media
+- 04 - To-Do lists/Kanban boards
+- 05 - Тракер на разходи/хранене/навици/тренировки
+- 06 - Електронен дневник
+- 07 - Оправление на резервации
+    - Лекари
+    - Заведения
+    - Кино
 
-### Онлайн магазини
-
-### Social media
-
-### To-Do lists/Kanban boards
-
-### Тракер на разходи/хранене/навици/тренировки
-
-### Електронен дневник
-
-### Оправление на резервации
-
-- Лекари
-- Заведения
-- Кино
-
-## Игри
-
-- 2D NinjaJump
-- Crumblign Dungeon
-- Minesweeper
-- Minigolf и Geometry Dash
-- Шах
-- Snake
-- 2D Platformer
-- Space Invaders
-- Mario-like game
-- Bullet-hell игра
-- Flappy bird
-- 2D auto-scroll
-- CowDefenders
-- osu! clone
-- Wordle
-- TicTacToe
-- Candy crush
-- Triviador clone
-- Scribbl
-- Покер
-- Asteroids
-- Blackjack
-- Nonogram
-- 2048
-- Duck Hunt
-- Scuffed Pandemic
-- PacMan
-- Тетрис
-- Animal crossing
-- Papers please
 
 ## Desktop и конзолни приложения
 
-### Редактор на изображения
+- 08 - Редактор на изображения (2 варианта)
+- 09 - Discord bot
+- 10 - Интерпретатор
+    - Интерпретатор на Answer-set programming
+    - Интерпретатор на Brainfuck
+    - Интерпретатор на Prolog
+- 11 -Password manager
+- 12 - Tracker & webcrawlers
+    - Следене на обяви/цени/акции
+    - Cheap flights telegram bot
+- 13 - Music & video players
+    - Music player
+    - Spotify
+- 14 - Spellchecker
+- 15 - Web messenger
 
-### Discord bot
-
-### Интерпретатор
-
-- Интерпретатор на Answer-set programming
-- Интерпретатор на Brainfuck
-- Интерпретатор на Prolog
-
-### Password manager
-
-### Tracker & webcrawlers
-
-- Следене на обяви/цени/акции
-- Cheap flights telegram bot
-
-### Music & video players
-
-- Music player
-- Spotify
-
-### Spellchecker
-
-### Web messenger
+## Игри
+- 16 - Minesweeper
+- 17 - Шах
+- 18 - Snake
+- 19 - Space Invaders
+- 20 - Mario-like game
+- 21 - Wordle
+- 22 - Triviador clone
+- 23 - Покер
+- 24 - Code names
 
 ## Библиотеки
 
-- Работа с графи
-- Работа с крайни автомати
+- 25 - Работа с графи
+- 26 - Работа с крайни автомати
 
 ## AI
 
