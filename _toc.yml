@@ -24,35 +24,10 @@ parts:
   - file: "16 - Using C code in Python/17 - Using C code in Python"
   - file: "17 - numpy, pandas, matplotlib/18 - numpy, pandas, matplotlib"
 
-- caption: Упражнения
-  chapters:
-  - file: labs/lab01
-    title: Упражнение 1 (теми 2 & 3)
-  - file: labs/lab02
-    title: Упражнение 2 (тема 4)
-  - file: labs/lab03
-    title: Упражнение 3 (тема 5)
-  - file: labs/lab04
-    title: Упражнение 4 (теми 6, 7 & 8)
-  - file: labs/lab05/README
-    title: Упражнение 5 (теми 9, 10, 11 & 12)
-  - file: labs/lab06/README
-    title: Упражнение 6 (теми 13 и 14)
-
-- caption: Упражнения (примерни решения)
-  chapters:
-  - file: labs/lab01_solutions
-    title: Упражнение 1
-  - file: labs/lab02_solutions
-    title: Упражнение 2
-  - file: labs/lab03_solutions
-    title: Упражнение 3
-  - file: labs/lab04_solutions
-    title: Упражнение 4
 
 - caption: Проекти
   chapters:
   - file: projects
     title: Указания
   - file: example_projects
-    title: Проекти от минали години
+    title: Примерни от минали години
