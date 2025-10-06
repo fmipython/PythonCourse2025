@@ -30,4 +30,4 @@ parts:
   - file: projects
     title: Указания
   - file: example_projects
-    title: Примерни от минали години
+    title: Примерни проекти от минали години

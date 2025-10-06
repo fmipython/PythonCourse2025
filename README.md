@@ -6,8 +6,7 @@ Github repository към курса "Програмиране с Python" във 
 
 ## Контакти
 
-Влезте в нашия **Discord сървър**: *invite link TBA*
-<!-- [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/HwXcZuvZbq) -->
+Влезте в нашия **Discord сървър**: [![Discord](https://img.shields.io/badge/Discord-%235865F2.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/NXu7CYnp2Q)
 
 Имаме за всеки случай и общ **email**: pythoncoursefmi@gmail.com (предпочитаме да не се пише до отделен преподавател)
 
