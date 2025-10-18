@@ -70,6 +70,8 @@
 21. Space Invaders
 22. Platformer game
 23. Wordle
+    1. PVP
+    2. PVE
 24. Triviador
 25. Покер
 26. Code names
