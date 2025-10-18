@@ -15,16 +15,17 @@
 Вашата задача е да довършите файла `cipher.py` по такъв начин, че да може да бъде изпълняван от командния ред (дадена ви е помощна имплементация за това с `argparse`), като поддържа следния синтаксис и функционалности:
 
 ```shell
-python cipher.py <MODE> <TEXT> -k <KEY> [-a <ALPHABET_NAME>]
+python cipher.py <MODE> [<TEXT>] -k <KEY> [-a <ALPHABET_NAME>]
 ```
 
 където:
-* `MODE` е или `encrypt`, или `decrypt`. Указва в коя посока да се извърши трансформацията.
+* `<MODE>` е или `encrypt`, или `decrypt`. Указва в коя посока да се извърши трансформацията.
   * При `encrypt` всяка буква се измества с ключа надясно (прибавя се стойността на ключа към поредността на буквата).
   * При `decrypt` всяка буква се измества с ключа наляво (изважда се стойността на ключа от поредността на буквата).
   * Запазва се вида на буквите (главни/малки).
   * Символи извън указаната азбука не се променят (букви от чужда азбука, цифри, пунктуация, др. символи).
 * `<TEXT>` е текстов низ (str), който може да съдържа букви, цифри, пунктуация и други символи. Той трябва да бъде обработен според зададения режим и ключ.
+  * Този аргумент може да бъде пропуснат. В такъв случай програмата трябва да изчака вход от потребителя (чрез вградената функция `input()`), за да получи текста за обработка.
 * `-k <KEY>` е цяло число, което указва ключът. Валидни стойности са от 1 до дължината на азбуката минус едно.
   * Да се изведе подходяща грешка при невалиден ключ.
   * Специално за ключ 0 или ключ равен на дължината на азбуката, да се изведе съобщение `Key results in no change.` и програмата да приключи без да прави нищо останало.
@@ -44,9 +45,9 @@ python cipher.py <MODE> <TEXT> -k <KEY> [-a <ALPHABET_NAME>]
 ## Примери
 
 ```shell
-$ python cipher.py encrypt hello -k 3
+$ python cipher.py encrypt xyzabc -k 3
 
-khoor
+abcdef
 ```
 
 ```shell
@@ -62,13 +63,19 @@ Hello, world!
 ```
 
 ```shell
-$ python cipher.py encrypt "Я виж, можем и на български." -k 5 -a bg
+$ python cipher.py encrypt -k 16
+Here the program waits for the user to input text
+Xuhu jxu fhewhqc mqyji veh jxu kiuh je ydfkj junj
+```
+
+```shell
+$ python cipher.py encrypt "Я виж, можем и на български." -k 2 -a bg
 
 Б дки, оризо к пв гюневтумк.
 ```
 
 ```shell
-$ python cipher.py encrypt "Я виж, можем и на български." -k 5
+$ python cipher.py encrypt "Я виж, можем и на български." -k 2
 
 Я виж, можем и на български.
 ```
@@ -76,7 +83,7 @@ $ python cipher.py encrypt "Я виж, можем и на български." -
 ```shell
 $ python cipher.py encrypt whatever -k 666
 
-Invalid key. Key must be between 1 and 25.
+Invalid key 666. Key must be between 1 and 25.
 ```
 
 ```shell
@@ -91,5 +98,8 @@ $ python cipher.py encrypt whatever -k 3 -a foo
 Unrecognized alphabet foo. Supported values are: en, bg, ru, de, tr, gr.
 ```
 
-## Полезни линкове
-Може да проверите дали работи коректно програмата ви с някой специализиран за това сайт, например този: https://cryptii.com/pipes/caesar-cipher
+## Помощ
+* За намиране на индекс на символ (или substring) в низ, може да използвате [str.find()](https://docs.python.org/3/library/stdtypes.html#str.find).
+* За проверка дали даден символ е главна буква, може да използвате `str.isupper()`.
+* За преждевременен изход от програмата, може да използвате `sys.exit()`.
+* Може да проверите дали работи коректно програмата ви с някой специализиран за това сайт, например този: https://cryptii.com/pipes/caesar-cipher
