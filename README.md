@@ -16,6 +16,8 @@ Github repository към курса "Програмиране с Python" във 
 - Понеделник 19:00 - 21:00, зала 325
 - Четвъртък 19:00 - 21:00, зала 101
 
+- [Календар](https://docs.google.com/spreadsheets/d/1gqgUjkVs1kEKD92fP-nUE4WIWfptDuGgwKfg5sTNUAg/edit?usp=sharing)
+
 ### Лекции
 
 Всички лекции са събрани под формата на Jupyter notebook интерактивни записки.
@@ -30,19 +32,19 @@ JupyterBook "книжка" с всички теми има тук: https://fmipy
 | 2          | [Основи: променливи, типове, разклонения, цикли, функции](./02%20-%20Variables,%20types,%20control%20flow/)         | 09.10.2025, 13.10.2025 | [Алекс](https://github.com/yalishanda42)                                                                                  |
 | 3          | [Обектно-ориентирано програмиране в Python](./03%20-%20OOP/)                                                        | 16.10.2025, 20.10.2025 | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
 | 4          | [Функционално програмиране в Python](./04%20-%20Functional%20Programming/)                                          | 23.10.2025, 27.10.2025 | [Любо](https://github.com/lyubolp)                                                                                                                                      |
-| 5          | [Представяне на структури от данни и алгоритми над тях](./05%20-%20Data%20Structures%20and%20Oddities/)             | 30.10.2025, 03.11.2025 | [Любо](https://github.com/lyubolp)                                                                                                                                      |
-| 6          | [Тype hints (типови анотации)](./06%20-%20Typing%20Hints/)                                                          | 10.11.2025             | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
-| 7          | [Грешки и изключения](./07%20-%20Exceptions%20Handling/)                                                            | 13.11.2025             | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
-| 8          | [Работа с файлове](./08%20-%20Files/)                                                                               | 17.11.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
-| 9          | [Многонишково и асинхронно програмиране](./09%20-%20Multithreading/)                                                | 20.11.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
-| 10         | [Работа с HTTP заявки](./10%20-%20requests/)                                                                        | 24.11.2025 (1-ви час)  | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
-| 11         | [Работа с Git](./11%20-%20Git/)                                                                                     | 24.11.2025 (2-ри час)  | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
-| 12         | [Модули и пакети](./12%20-%20Modules/)                                                                              | 27.11.2025             | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
-| 13         | [Принципи на качествения код, конвенциии за стил](./13%20-%20Clean%20code/)                                         | 01.12.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
-| 14         | [Тестване](./14%20-%20Testing/)                                                                                     | 04.12.2025             | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
-| 15         | [Уеб програмиране. Flask](./15%20-%20Web%20programming/)                                                            | 15.12.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
+| 5          | [Представяне на структури от данни и алгоритми над тях](./05%20-%20Data%20Structures%20and%20Oddities/)             | 30.10.2025, 06.11.2025 | [Любо](https://github.com/lyubolp)                                                                                                                                      |
+| 6          | [Тype hints (типови анотации)](./06%20-%20Typing%20Hints/)                                                          | 13.11.2025             | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
+| 7          | [Грешки и изключения](./07%20-%20Exceptions%20Handling/)                                                            | 17.11.2025             | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
+| 8          | [Работа с файлове](./08%20-%20Files/)                                                                               | 20.11.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
+| 9          | [Многонишково и асинхронно програмиране](./09%20-%20Multithreading/)                                                | 24.11.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
+| 10         | [Работа с HTTP заявки](./10%20-%20requests/)                                                                        | 27.11.2025 (1-ви час)  | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
+| 11         | [Работа с Git](./11%20-%20Git/)                                                                                     | 27.11.2025 (2-ри час)  | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
+| 12         | [Модули и пакети](./12%20-%20Modules/)                                                                              | 01.12.2025             | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
+| 13         | [Принципи на качествения код, конвенциии за стил](./13%20-%20Clean%20code/)                                         | 04.12.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
+| 14         | [Тестване](./14%20-%20Testing/)                                                                                     | 11.12.2025             | [Алекс](https://github.com/yalishanda42)                                                                                                                                |
 | 17         | [Data Science & AI библиотеки (numpy, pandas, matplotlib)](./17%20-%20numpy,%20pandas,%20matplotlib/)               | 18.12.2026             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
-| 16         | [Използване на C код в Python](./16%20-%20Using%20C%20code%20in%20Python/)                                          | 05.01.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
+| 15         | [Уеб програмиране. Flask](./15%20-%20Web%20programming/)                                                            | 05.01.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
+| 16         | [Използване на C код в Python](./16%20-%20Using%20C%20code%20in%20Python/)                                          | 08.01.2025             | [Любо](https://github.com/lyubolp)                                                                                                                                      |
 
 ### Workshops
 
@@ -50,9 +52,9 @@ JupyterBook "книжка" с всички теми има тук: https://fmipy
 
 | № | Дата       |
 | - | ---------- |
-| 1 | 06.11.2025 |
-| 2 | 11.12.2025 |
-| 3 | 08.01.2026 |
+| 1 | 10.11.2025 |
+| 2 | 15.12.2025 |
+| 3 | 12.01.2026 |
 | ? | ??.??.???? |
 
 
