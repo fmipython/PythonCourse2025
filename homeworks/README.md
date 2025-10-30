@@ -21,26 +21,26 @@
 
 Отворете link
 
-![Web view](assets/1.png)
+![Web view](assets/web-1.png)
 
 ### Стъпка 2
 
 Чрез бутона "Browse files" качете архива с вашето решение.
 **Важно: Приемат се само zip архиви.**
 
-![Upload file](assets/2.png)
+![Upload file](assets/web-2.png)
 
 ### Стъпка 3
 
 Изчакайте докато pygrader-а прегледа вашето решение.
 
-![Grading](assets/3.png)
+![Grading](assets/web-3.png)
 
 
 ### Стъпка 4
 
 Разгледайте резултатите за вашето решение.
-![Results](assets/4.png)
+![Results](assets/web-4.png)
 
 
 ## pygrader Docker package
@@ -50,9 +50,29 @@ Docker е технология, която позволява създаване
 Единственото, което трябва да имате инсталирано на вашия компютър е Docker Desktop.
 TODO - Add link.
 
-След като сте инсталирали Docker Desktop, следвайте следните инструкции, спрямо вашата ОС:
+След като сте свалили Docker Desktop, следвайте следните инструкции, спрямо вашата ОС.
 
-### Linux & MacOS
+**Важно** При инсталация на Windows оставете следните настройки включени:
+
+![Windows install](assets/desktop-0.png)
+
+### Docker desktop
+
+#### Стъпка 1
+
+Отворете Docker Desktop.
+
+#### Стъпка 2
+
+В долният-десен ъгъл е иконката за терминал.
+
+![Docker desktop](assets/desktop-1.png)
+
+#### Стъпка 3
+
+От тук следвате стъпките в секцията по-долу, "Терминал".
+
+### Терминал
 
 Изпълнете следните две команди, една след друга:
 
@@ -96,8 +116,6 @@ Check: structure, Result: True
 Check: tests, Score: 5.4/5.6
 ```
 
-
-### Windows
 
 ## pygrader source
 
