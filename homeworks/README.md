@@ -117,12 +117,22 @@ Check: structure, Result: True
 Check: tests, Score: 5.4/5.6
 ```
 
-
 ## pygrader source
 
 Ако не искате да инсталирате Docker на вашия компютър, може да свалите кодът на pygrader-а, и да го пуснете ръчно.
 
-### Linux & MacOS
+За да свалите кода на pygrader-а, използвайте следната команда:
 
-### Windows
+```bash
+git clone https://github.com/fmipython/pygrader
+```
 
+От директорията `pygrader` изпълнете:
+
+```bash
+pip3 install -r requirements-prod.txt
+```
+
+```bash
+python3 pygrader.py --config "https://api.github.com/repos/fmipython/homeworks-2025/contents/homework1/pygrader_config_public.json" <path_to_project>
+```
