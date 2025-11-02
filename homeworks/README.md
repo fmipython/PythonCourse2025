@@ -136,5 +136,5 @@ pip3 install -r requirements-prod.txt
 ```
 
 ```bash
-python3 pygrader.py --config "https://api.github.com/repos/fmipython/homeworks-2025/contents/homework1/pygrader_config_public.json" <path_to_project>
+python3 pygrader.py --config "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework1/config/pygrader_config_public.json" <path_to_project>
 ```
