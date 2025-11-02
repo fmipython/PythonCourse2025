@@ -8,12 +8,12 @@
 Предоставяме три варианта за изпълнение на pygrader-а:
 
 1. pygrader-web - уеб-базиран вариант. Не изисква инсталация на допълнителни програми на вашия компютър. Възможно е да има нестабилност при завишено използване.
-2. pygrader Docker image - Docker image на pygrader-а. Изисква инсталаия на Docker на вашия компютър. Най-сигурният вариант.
+2. pygrader Docker image - Docker image на pygrader-а. Изисква инсталация на Docker на вашия компютър. Най-сигурният вариант.  
 3. pygrader source - директно изпълнение на pygrader-а. Изисква сваляне на кода и конфигуриране. 
 
 ## pygrader-web
 
-На **LINK** е качен уеб версия на pygrader-а. За неговото използване не трябва да инсталирате нищо на вашата машина.
+[Тук](http://ec2-108-128-252-226.eu-west-1.compute.amazonaws.com/) е качена уеб версия на pygrader-а. За нейното използване не трябва да инсталирате нищо на вашата машина.
 
 За да тествате решението си, трябва просто да го качите като .zip архив.
 
@@ -48,7 +48,7 @@
 Docker е технология, която позволява създаването и изпълнението на т.нар. "контейнери".
 
 Единственото, което трябва да имате инсталирано на вашия компютър е Docker Desktop.
-TODO - Add link.
+[Тук](https://docs.docker.com/desktop/) може да намерите инструкции за инсталация за съответната ви операционна система (Windows/Linux/Mac)  
 
 След като сте свалили Docker Desktop, следвайте следните инструкции, спрямо вашата ОС.
 
@@ -79,8 +79,10 @@ TODO - Add link.
 
 ```bash
 docker pull ghcr.io/fmipython/pygrader:main
-docker run --rm -v /home/lyubolp/homeworks-2025/homework1:/project ghcr.io/fmipython/pygrader:main
+docker run --rm -v <path_to_homework>:/project ghcr.io/fmipython/pygrader:main
 ```
+
+`<path_to_homework> е пълния път до директорията, в която се намира вашето решение.`
 
 ```bash
 Python project grader, 1.5.0
