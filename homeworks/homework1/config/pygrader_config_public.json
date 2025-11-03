@@ -1,0 +1,23 @@
+{
+    "checks": [
+        {
+            "name": "structure",
+            "is_venv_required": false,
+            "structure_file": "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework1/pygrader_structure.json"
+        },
+        {
+            "name": "tests",
+            "is_venv_required": true,
+            "tests_path": [
+                "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework1/tests_public.py"
+            ],
+            "max_points": 5.6,
+            "default_test_score": 0.05,
+            "test_score_mapping": {
+                "test_07_chips_method": 0.2,
+                "JokerTests": 0.3,
+                "JokerWithEffectsCalculationTests": 0.4
+            }
+        }
+    ]
+}
