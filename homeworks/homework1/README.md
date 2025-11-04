@@ -71,8 +71,8 @@
 c1 = Card("A", Suit.CLUBS)
 c2 = Card("K", Suit.HEARTS)
 c3 = Card("K", Suit.SPADES)
-c4 = Card("7", Suit.DIAMONS)
-c5 = Card("2", Suit.DIAMONS)
+c4 = Card("7", Suit.DIAMONDS)
+c5 = Card("2", Suit.DIAMONDS)
 
 print(score([c1, c2, c3, c4, c5], []))
 ```
@@ -92,7 +92,7 @@ print(score([c1, c2, c3, c4, c5], []))
 
 ```python
 c1 = Card("A", Suit.CLUBS)
-c2 = SilverCard("K", Suit.DIAMONS)
+c2 = SilverCard("K", Suit.DIAMONDS)
 c3 = GoldCard("K", Suit.HEARTS)
 c4 = WildCard("A")
 c5 = Card("A", Suit.SPADES)
