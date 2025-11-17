@@ -1,5 +1,5 @@
 
-# Тема за проект 22 - "Trivia (Triviador)"
+# Тема за проект 20 - "Trivia (Triviador)"
 
 ## Описание
 

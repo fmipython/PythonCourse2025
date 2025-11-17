@@ -1,4 +1,4 @@
-# Тема за проект 22 - "Platform игра (тип Super Mario)"
+# Тема за проект 18 - "Platform игра (тип Super Mario)"
 
 ## Описание
 
