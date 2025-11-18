@@ -47,41 +47,42 @@
 9. Редактор на изображения
     1. Векторна графика
     2. Undo/redo & layers
-10. Интерпретатор
-    1. Интерпретатор на Prolog
-    2. Интерпретатор на Brainfuck
-    3. Интерпретатор на измислен ваш език
-11. Password manager
-12. Tracker & webcrawlers
+10. Интерпретатор на Prolog
+    1. Визуализация на заявки
+    2. Множество файлове
+    3. Import/export
+    4. Собствени предикати
+11. Интерпретатор на Brainfuck
+12. Password manager
+13. Tracker & webcrawlers
     1. Следене на обяви/цени/акции
     2. Cheap flights bot
-13. Music & video players
+14. Music & video players
     1. Music player
     2. Spotify
-14. Spellchecker
-15. Web messenger
-
+15. Spellchecker
+16. Web messenger
 
 ## Игри
 
-16. Шах
-17. Snake
-18. Platformer game
-19. Wordle
+17. Шах
+18. Snake
+19. Platformer game
+20. Wordle
     1. PVP
     2. PVE
-20. Triviador
-21. Покер
-22. Code names
+21. Triviador
+22. Покер
+23. Code names
     1. Срещу, вариант 1
     2. Срещу, вариант 2
     3. Тандем
 
 ## Библиотеки
 
-23. Работа с графи
-24. Работа с крайни автомати
-25. Работа с размити множества
+24. Работа с графи
+25. Работа с крайни автомати
+26. Работа с размити множества
 
 ## AI
 (пишете ни, ако не намерите подходящ набор от данни (dataset) за вашата идея)
