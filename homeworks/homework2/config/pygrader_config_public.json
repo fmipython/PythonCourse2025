@@ -1,0 +1,37 @@
+{
+    "checks": [
+        {
+            "name": "structure",
+            "is_venv_required": false,
+            "structure_file": "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework2/pygrader_structure.json"
+        },
+        {
+            "name": "tests",
+            "is_venv_required": true,
+            "tests_path": [
+                "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework2/test_api.py",
+                "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework2/test_unit_public.py",
+                "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework2/test_functional_public.py"
+            ],
+            "max_points": 2.0,
+            "default_test_score": 0.05,
+            "test_score_mapping": {
+                "test_01_search_in_file": 0.1,
+                "test_02_run_multi_threaded": 0.1,
+                "test_01_normal_search": 0.2,
+                "test_02_regex_search": 0.2,
+                "test_05_file_not_found": 0.2,
+                "test_01_less_files_than_workers": 0.2,
+                "test_02_negative_workers": 0.2,
+                "test_01_regex_search_in_file": 0.3,
+                "test_02_multiple_files": 0.3,
+                "test_06_recursive_and_file_url_mutually_exclusive": 0.2
+            }
+        },
+        {
+            "name": "type-hints",
+            "max_points": 1,
+            "is_venv_required": false
+        }
+    ]
+}

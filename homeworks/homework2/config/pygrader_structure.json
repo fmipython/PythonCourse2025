@@ -1,0 +1,9 @@
+{
+    "source": {
+        "name": "Solution file",
+        "required": true,
+        "patterns": [
+            "./mgrep.py"
+        ]
+    }
+}
