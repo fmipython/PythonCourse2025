@@ -31,7 +31,7 @@
         {
             "name": "type-hints",
             "max_points": 1,
-            "is_venv_required": false
+            "is_venv_required": true
         }
     ]
 }
