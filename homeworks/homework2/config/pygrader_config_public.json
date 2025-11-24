@@ -3,7 +3,7 @@
         {
             "name": "structure",
             "is_venv_required": false,
-            "structure_file": "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework2/pygrader_structure.json"
+            "structure_file": "https://api.github.com/repos/fmipython/PythonCourse2025/contents/homeworks/homework2/config/pygrader_structure.json"
         },
         {
             "name": "tests",
