@@ -31,7 +31,7 @@
 
 ## Препоръчителни технологии
 - Локално използване на AI модели: `transformers`, `diffusers`, `whisper`, `torch`, `tensorflow` и др.
-- LLM/AI API-та: `openai`, `anthropic`, `deepseek` и др., в зависимост от доставчика
+- LLM/AI API-та: `openai`, `anthropic` и др., в зависимост от доставчика
 - Работа с аудио: `whisper`, `pydub`, `librosa`
 - Работа с изображения: `PIL/Pillow`, `opencv-python`, `openai` (за Dall-E),
 - Генериране на видео: `moviepy`, `opencv-python`
