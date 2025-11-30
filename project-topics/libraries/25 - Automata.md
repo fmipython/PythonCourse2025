@@ -36,7 +36,6 @@
 
 ## Препоръчани технологии
 
-- Python
 - Rich (за конзолна визуализация)
 - Graphviz
 - Tkinter/PyQt (за GUI)
