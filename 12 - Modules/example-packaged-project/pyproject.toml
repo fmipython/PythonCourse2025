@@ -1,0 +1,13 @@
+[project]
+# следните две полета в project секцията са задължителни:
+name = "besenitsa"  # името на проекта
+version = "0.1.0"  # текущата версия
+
+[build-system]
+# Избор между различни билд системи. Най-използваната (и по подразбиране зададена) е setuptools
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+# setuptools може да чете и от допълнителни конфигурационни секции с опции
+[tool.setuptools.packages.find]
+where = ["src"]  # при липса на src обграждаща директория (т.нар. flat layout), можем да ползваме ["."] или да не указваме нищо
