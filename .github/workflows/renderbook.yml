@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           python3 -m pip install --upgrade pip
-          pip3 install jupyter-book
+          pip3 install "jupyter-book>=2.0.0"
 
       - name: Build JupyterBook
         run: |
