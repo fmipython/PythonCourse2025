@@ -1,0 +1,29 @@
+{
+    "checks": [
+        {
+            "name": "structure",
+            "is_venv_required": false,
+            "structure_file": "${{config_dir}}/pygrader_structure.json"
+        },
+        {
+            "name": "tests",
+            "is_venv_required": true,
+            "tests_path": [
+                "${{config_dir}}/tests_public/test_unit.py"
+            ],
+            "max_points": 1.7,
+            "default_test_score": 0.1
+        },
+        {
+            "name": "type-hints",
+            "max_points": 1,
+            "is_venv_required": true
+        },
+        {
+            "name": "pylint",
+            "max_points": 1,
+            "is_venv_required": true
+
+        }
+    ]
+}

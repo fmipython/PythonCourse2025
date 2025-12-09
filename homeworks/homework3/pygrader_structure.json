@@ -1,0 +1,16 @@
+{
+  "source": {
+    "name": "Source files as a TMDB package",
+    "required": true,
+    "patterns": [
+      "*/tmdb_sdk/**/*.py"
+    ]
+  },
+  "pyprojecttoml": {
+    "name": "Pyproject.toml file",
+    "required": true,
+    "patterns": [
+      "pyproject.toml"
+    ]
+  }
+}
