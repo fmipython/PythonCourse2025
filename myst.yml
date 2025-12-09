@@ -1,0 +1,47 @@
+version: 1
+project:
+  title: Python Course 2025/2026
+  authors:
+    - name: Alexander Ignatov
+    - name: Lyuboslav Karev
+    - name: Karina Hristova
+    - name: Alexandr Komarov
+    - name: Ivan Luchev
+  github: fmipython/PythonCourse2025
+  toc:
+    - file: README.md
+    - title: Лекции
+      children:
+        - file: 01 - Intro to Python/install-n-setup.md
+        - file: 01 - Intro to Python/notebooks.md
+        - file: >-
+            02 - Variables, types, control flow/02 - Variables, types, control
+            flow.ipynb
+        - file: 03 - OOP/03 - OOP.ipynb
+        - file: 04 - Functional Programming/04 - Functional Programming.ipynb
+        - file: >-
+            05 - Data Structures and Oddities/05 - Data Structures and
+            Oddities.ipynb
+        - file: 06 - Typing Hints/06 - Typing Hints.ipynb
+        - file: 07 - Exceptions Handling/07 - Exceptions Handling.ipynb
+        - file: 08 - Files/08 - Files.ipynb
+        - file: 09 - Multithreading/09 - Multithreading.ipynb
+        - file: 10 - requests/10 - requests.ipynb
+        - file: 11 - Git/README.md
+        - file: 12 - Modules/12 - Modules.ipynb
+        - file: 13 - Clean code/13 - Clean code in Python.ipynb
+        - file: 14 - Testing/14 - Testing.ipynb
+        - file: 15 - Web programming/15 - Web programming.ipynb
+        - file: 16 - Using C code in Python/16 - Using C code in Python.ipynb
+        - file: 17 - numpy, pandas, matplotlib/17 - numpy, pandas, matplotlib.ipynb
+    - title: Проекти
+      children:
+        - file: projects.md
+          title: Указания
+        - file: example_projects.md
+          title: Примерни проекти от минали години
+site:
+  options:
+    logo: misc/logo.png
+    folders: true
+  template: book-theme
