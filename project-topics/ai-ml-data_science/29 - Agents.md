@@ -6,9 +6,9 @@
 
 ## Варианти
 
-1.Brainrot video generator
-2.Video/podcast summarizer
-3.AI софтуерен екип - бизнес анализатор, програмист, QA
+### A. Brainrot video generator
+### B. Video/podcast summarizer
+### C. AI софтуерен екип - бизнес анализатор, програмист, QA
 
 ## Задължителни изисквания
 
