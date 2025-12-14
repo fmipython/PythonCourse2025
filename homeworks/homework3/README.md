@@ -27,7 +27,7 @@ SDK (Software Development Kit) е колекция от инструменти, 
 
 * Клас `tmdb_sdk.client.TMDbClient`:
 
-  * Инициализатор, който приема `api_key: str` (въпросният API ключ за достъп) (при липсва на такъв, да се хвърли `ValueError`).
+  * Инициализатор, който приема `api_key: str` (въпросният API ключ за достъп) (при липсва на такъв, да се хвърли `ValueError` с точното съобщение `API key is required`).
 
   * Метод за най-популярни филми (заявка към [`GET /discover/movie`](https://developers.themoviedb.org/3/discover/movie)):
     ```python
