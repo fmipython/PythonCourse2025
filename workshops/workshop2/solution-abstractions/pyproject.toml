@@ -1,0 +1,30 @@
+[project]
+name = "workshop2-more-abstract-solution"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.32.5",
+]
+
+[project.optional-dependencies]
+cli = [
+    "rich>=14.2.0",
+    "typer>=0.20.0",
+]
+gui = [
+    "streamlit>=1.52.1",
+]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
