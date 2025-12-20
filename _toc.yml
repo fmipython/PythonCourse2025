@@ -27,7 +27,5 @@ parts:
 
 - caption: Проекти
   chapters:
-  - file: projects
-    title: Указания
-  - file: example_projects
-    title: Примерни проекти от минали години
+  - file: project-topics/README.md
+    title: Указания и теми
