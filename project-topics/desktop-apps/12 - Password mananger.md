@@ -54,8 +54,11 @@ Password Manager е конзолно приложение, което позво
 
 ## Препоръчани технологии
 
-- Python (конзолно приложение)
-- Библиотеки: `cryptography` (AES), `pyperclip` (clipboard), `getpass` (скрит вход на пароли)
+- `rich` (CLI форматиране)
+- `typer` или `click` (обработка на команди)
+- `cryptography` (AES)
+- `pyperclip` (clipboard)
+- `getpass` (скрит вход на пароли)
 
 ## Незадължителни и бонус елементи
 
