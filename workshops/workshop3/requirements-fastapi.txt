@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+pydantic[email]
+
+# DB
+sqlalchemy
+aiosqlite
+greenlet
+
+# tests
+pytest
+pytest-asyncio
+httpx
