@@ -1,0 +1,10 @@
+flask
+
+# DB
+sqlalchemy
+aiosqlite
+greenlet
+
+# tests
+pytest
+pytest-asyncio
