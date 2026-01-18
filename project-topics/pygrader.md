@@ -20,25 +20,25 @@
 
 Отворете link
 
-![Web view](assets/web-1.png)
+![Web view](../homeworks/assets/web-1.png)
 
 ### Стъпка 2
 
 Чрез бутона "Browse files" качете архива с вашето решение.
 **Важно: Приемат се само zip архиви.**
 
-![Upload file](assets/web-2.png)
+![Upload file](../homeworks/assets/web-2.png)
 
 ### Стъпка 3
 
 Изчакайте докато pygrader-а прегледа вашето решение.
 
-![Grading](assets/web-3.png)
+![Grading](../homeworks/assets/web-3.png)
 
 ### Стъпка 4
 
 Разгледайте резултатите за вашето решение.
-![Results](assets/web-4.png)
+![Results](../homeworks/assets/web-4.png)
 
 ## pygrader Docker package
 
@@ -51,7 +51,7 @@ Docker е технология, която позволява създаване
 
 **Важно** При инсталация на Windows оставете следните настройки включени:
 
-![Windows install](assets/desktop-0.png)
+![Windows install](../homeworks/assets/desktop-0.png)
 
 ### Docker desktop
 
@@ -63,12 +63,12 @@ Docker е технология, която позволява създаване
 
 В долният-десен ъгъл е иконката за терминал.
 
-![Docker desktop](assets/desktop-1.png)
+![Docker desktop](../homeworks/assets/desktop-1.png)
 
 #### Стъпка 3
 
 От тук следвате стъпките в секцията по-долу, "Терминал".
-![Docker desktop2](assets/desktop-2.png)
+![Docker desktop2](../homeworks/assets/desktop-2.png)
 
 ### Терминал
 
